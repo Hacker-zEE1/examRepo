@@ -15,6 +15,9 @@ public class gitClass {
 			int tNum = scn.nextInt();
 			int sumOfTheNumbers = fNum + sNum + tNum;
 			System.out.println("The sum of the three numbers is : "+sumOfTheNumbers);
+
+			double avgOfTheNumbers = (fNum + sNum + tNum)/3;
+			System.out.println("The average of the three numbers is : "+avgOfTheNumbers);
 		}
 
 	}
